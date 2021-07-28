@@ -9,7 +9,7 @@ terraform {
   experiments = [module_variable_optional_attrs]
 }
 
-module "tfe-workspace" {
+module "tfe-workspace1" {
   source  = "tfelab.is.hashicorpdemo.com/admin/workspacer/tfe"
   version = "0.1.0"
 
